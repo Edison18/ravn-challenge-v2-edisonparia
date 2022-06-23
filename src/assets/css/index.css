@@ -1,0 +1,15 @@
+/* Main stylesheet */
+
+@import "./variables";
+@import "./data-cell.css";
+@import "./person-cell.css";
+@import "./loading.css";
+@import "./error-message.css";
+@import "./navbar.css";
+@import "./app.css";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}

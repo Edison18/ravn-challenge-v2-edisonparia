@@ -1,0 +1,12 @@
+:root {
+  /* VARIABLES */
+  --color-ravn: #121212;
+  --color-dark: #333333;
+  --color-white: #ffffff;
+  --color-light: #828282;
+  --color-high-emphasis: rgba(235, 87, 87, 1);
+  --color-low-emphasis: rgba(0, 0, 0, 0.3);
+  --color-default: rgba(0, 0, 0, 1);
+  --text-size-title: 1.45em; /* 17pt	23px	1.45em		*/
+  --text-size-desc: 1.2em; /* 14pt	19px	1.2em	*/
+}

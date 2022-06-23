@@ -1,0 +1,16 @@
+.spinner {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-image > img {
+  width: 24px;
+}
+.spinner-text {
+  margin-left: 8px;
+  color: var(--color-low-emphasis);
+  font-size: var(--text-size-title);
+  font-weight: bold;
+}

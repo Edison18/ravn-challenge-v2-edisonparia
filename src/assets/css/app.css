@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-template-rows: auto 100vh;
+  height: 100vh;
+}
+
+.navbar {
+  background: var(--color-ravn);
+  color: var(--color-white);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 16px 32px;
+  font-size: var(--text-size-title);
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all-people {
+  border-right: 1px solid var(--color-low-emphasis);
+}
+
+.person-detail {
+  padding: 16px 56px;
+}
+.pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-rows: auto 100vh auto;
+    grid-template-columns: 100%;
+  }
+  .navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-people,
+  .person-detail {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
